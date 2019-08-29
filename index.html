@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap"> 
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Container Div -->
+    <div id="container">
+            <!-- Nav Bar -->
+        <nav id="myNav">
+            <!-- <h1 id="navHeading">Webby</h1> -->
+            <div id="menuIcon">&#9776;</div>
+            <ul id="linkList">
+                <li id="homeLink" class="listItem"><a class="link" href="#myNav">Home</a></li>
+                <li id="projectLink" class="listItem"><a class="link" href="#projectDiv">Projects</a></li>
+                <li id="contactLink" class="listItem"><a class="link" href="#callToAct">Contact</a></li>
+            </ul>
+        </nav>
+            <!-- Hero Area -->
+        <div id="myHero">
+            <div class="heroText">
+                <h1>Tim <span class="heroSpan">Abrahamson</span></h1>
+                <h3 class="heroSubText">I like codes my dude!</h3>
+                <p class="heroAboutText">
+                    I do more than just lorem. I can also ipsum and dolor sit! I've been working on amet consectetur, but I am not quite there. Have a gander!
+                </p>
+            </div>
+        </div>
+        <!-- Divs with list of skills -->
+        <div id="skillDiv">
+            <div id="skillOne">
+                <img class="skillImg" src="css/img/css-logo.png"/>
+                <h2 class="subHeader">CSS</h2>
+                <p>
+                    I try to make it a point to make sure my websites are both responsive and pretty to look at. CSS is where it is at!
+                </p>
+            </div>
+
+            <div id="skillTwo">
+                <img class="skillImg" src="css/img/javascript-logo.png"/>
+                <h2 class="subHeader">Javascript</h2>
+                <p>
+                    Functionality is crucial when building a website. I use javascript, as well as its library JQuery, to spice up my pages. There is nothing quite like menu buttons that work! 
+                </p>
+            </div>
+
+            <div id="skillThree">
+                <img class="skillImg" src="css/img/php-logo.png"/>
+                <h2 class="subHeader">PHP</h2>
+                <p>
+                    I am still learning PHP but it is getting more enjoyable all the time. I am going to add more about this at a later time.
+                </p>
+            </div>
+        </div>
+        <!-- Area that showcases projects -->
+        <h2 class="subHeader projectHeader">A sample of the goods</h2>
+        <div id="projectDiv">
+            <div class="projectOne">
+                <div class="projectImgOne"></div>
+                <img class="projectImg" src="css/img/todoListImg.png"/>
+                <p class="imgLabel">This is a Grocery List that allows you to add items, cross items out, and remove items. You can also toggle between light and dark mode.</p>
+            </div>
+            <div class="projectTwo">
+                <div class="projectImgTwo"></div>
+                <img class="projectImg" src="css/img/calcImg.png"/>
+                <p class="imgLabel">This is a calculator that performs all basic operations.</p>
+            </div>
+        </div>
+        <!-- Call to Action -->
+        <div id="callToAct">
+            <div id="contactText">
+                <h2 class="subHeader">Contact</h2>
+                <p>
+                    Need a website? Want to contact me for spiritual advice? I can only help you with one of those things! Enter your name and email below with a comment and I'll get back to you.
+                </p>
+            </div>
+            <!-- Inputs -->
+            <form id="myForm">
+                <input class="formInputs" type="text" name="name" placeholder="Name">
+                <input class="formInputs" type="text" name="email" placeholder="Email">
+                <textarea class="formInputs" name="message" placeholder="Leave a message"></textarea>
+                <button id="submitButton">Submit</button>
+            </form>
+        </div>
+        <!-- Footer -->
+        <footer id="foot">
+            <p class="footText">&copy;QuasiMoto 2019</p>
+
+            <div id="footerLinks">
+                <a href="https://github.com/Tlabrahamson" target="_blank">
+                    <img class="footImg" src="css/img/github.png"/>
+                </a>
+
+                <a href="https://codepen.io/Duloc/#" target="_blank">
+                    <img class="footImg" src="css/img/codepen-logo.png"/>
+                </a>
+
+                <a href="https://www.linkedin.com/in/tim-abrahamson-b6a34a174/" target="_blank">
+                    <img class="footImg" src="css/img/linkedin-logo.png"/>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
