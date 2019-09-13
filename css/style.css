@@ -389,6 +389,50 @@ h1{
     }
 }
 
+@media screen and (min-width: 992px) {
+    .projectImgThree{
+        margin: 60px 0 0 0px;
+        height: 300px;
+        width: 100%;
+        background-image: url("img/regApp.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: .8;
+    }
+    .projectImgThree:hover{
+        margin-top: 60px;
+        background-image: url("img/registrationAppClip.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .projectImgFour{
+        margin: 60px 0 0 0px;
+        height: 300px;
+        width: 100%;
+        background-image: url("img/portfolio.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: .8;
+    }
+    .projectImgFour:hover{
+        margin-top: 60px;
+        background-image: url("img/portfolioClip.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
 #callToAct{
     text-align: left;
     margin: 30px 10px 0 10px;
